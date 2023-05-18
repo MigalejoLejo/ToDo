@@ -11,6 +11,11 @@
 		49A0717B2A14D022004FA757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A0717A2A14D022004FA757 /* ContentView.swift */; };
 		49A0717D2A14D024004FA757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A0717C2A14D024004FA757 /* Assets.xcassets */; };
 		49A071802A14D024004FA757 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A0717F2A14D024004FA757 /* Preview Assets.xcassets */; };
+		49A071872A14D12D004FA757 /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A071862A14D12D004FA757 /* TaskDetailsView.swift */; };
+		49A0718A2A14F5A4004FA757 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A071892A14F5A4004FA757 /* Task.swift */; };
+		49A071A62A14FD3D004FA757 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A071A52A14FD3D004FA757 /* NewTaskView.swift */; };
+		49A071A92A1529B9004FA757 /* ToggleStyleCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A071A82A1529B9004FA757 /* ToggleStyleCheckBox.swift */; };
+		49A071AD2A163194004FA757 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A071AC2A163194004FA757 /* HideKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		49A0717A2A14D022004FA757 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49A0717C2A14D024004FA757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49A0717F2A14D024004FA757 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49A071862A14D12D004FA757 /* TaskDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
+		49A071892A14F5A4004FA757 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		49A071A52A14FD3D004FA757 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		49A071A82A1529B9004FA757 /* ToggleStyleCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyleCheckBox.swift; sourceTree = "<group>"; };
+		49A071AC2A163194004FA757 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,10 @@
 		49A071772A14D022004FA757 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				49A071AB2A16317B004FA757 /* Extensions */,
+				49A071AA2A16066B004FA757 /* Components */,
+				49A071882A14F594004FA757 /* Models */,
+				49A071A72A151DE3004FA757 /* Views */,
 				49A071782A14D022004FA757 /* ToDoApp.swift */,
 				49A0717A2A14D022004FA757 /* ContentView.swift */,
 				49A0717C2A14D024004FA757 /* Assets.xcassets */,
@@ -65,6 +79,39 @@
 				49A0717F2A14D024004FA757 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49A071882A14F594004FA757 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49A071892A14F5A4004FA757 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49A071A72A151DE3004FA757 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49A071862A14D12D004FA757 /* TaskDetailsView.swift */,
+				49A071A52A14FD3D004FA757 /* NewTaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49A071AA2A16066B004FA757 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				49A071A82A1529B9004FA757 /* ToggleStyleCheckBox.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		49A071AB2A16317B004FA757 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49A071AC2A163194004FA757 /* HideKeyboard.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A0718A2A14F5A4004FA757 /* Task.swift in Sources */,
+				49A071A62A14FD3D004FA757 /* NewTaskView.swift in Sources */,
 				49A0717B2A14D022004FA757 /* ContentView.swift in Sources */,
+				49A071AD2A163194004FA757 /* HideKeyboard.swift in Sources */,
 				49A071792A14D022004FA757 /* ToDoApp.swift in Sources */,
+				49A071A92A1529B9004FA757 /* ToggleStyleCheckBox.swift in Sources */,
+				49A071872A14D12D004FA757 /* TaskDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -275,6 +327,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +358,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
